@@ -33,7 +33,7 @@ body {
     cursor: pointer;
 }
 
-.checkbox__input-controller {
+.label__input-controller {
     display: inline-block;
     border: 2px solid rgb(84, 84, 84);
     border-radius: 10px;
@@ -43,27 +43,27 @@ body {
     transition: all 0.5s ease;
 }
 
-#input-1:checked~.checkbox__input-controller {
+#input-1:checked~.label__input-controller {
     background-image: url("../images/tennis.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#input-2:checked~.checkbox__input-controller {
+#input-2:checked~.label__input-controller {
     background-image: url("../images/basketball.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
-#input-3:checked~.checkbox__input-controller {
+#input-3:checked~.label__input-controller {
     background-image: url("../images/volleyball.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
-#input-4:checked~.checkbox__input-controller {
+#input-4:checked~.label__input-controller {
     background-image: url("../images/hockey.png");
     background-repeat: no-repeat;
     background-position: center;
